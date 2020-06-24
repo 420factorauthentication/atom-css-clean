@@ -1,3 +1,5 @@
+###### (forked from SeanJM's [atom-css-clean](https://atom.io/packages/atom-css-clean). All credits go to them.)
+
 # css-clean package
 
 We all write code a little quickly sometimes. This is a package which offers a helping hand to sort, align and clean your CSS and SASS.

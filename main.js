@@ -1,6 +1,6 @@
 const path = require('path');
 const fs = require('fs');
-var cleanCss = require('css-clean');
+var cleanCss = require('css-clean-fork');
 
 (function () {
   module.exports = {

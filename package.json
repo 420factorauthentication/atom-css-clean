@@ -1,33 +1,18 @@
 {
-  "name": "atom-css-clean",
-  "main": "main.js",
-  "version": "2.24.1",
-  "description": "A package for sorting and aligning CSS and SASS.",
-  "keywords": [
-    "css",
-    "prettify",
-    "pretty print",
-    "SASS",
-    "sorting",
-    "sort",
-    "alignment"
-  ],
   "activationCommands": {
     "atom-workspace": "css-clean:convert"
   },
-  "scripts": {
-    "jshint": "jshint"
+  "bugs": {
+    "url": "https://github.com/SeanJM/atom-css-clean/issues"
   },
-  "repository": "https://github.com/SeanJM/atom-css-clean",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
+  "bundleDependencies": false,
   "dependencies": {
-    "css-clean": "^1.7.1",
+    "css-clean-fork": "^1.6.1",
     "eslint": "^3.9.1",
     "lasso-string": "^5.0.0"
   },
+  "deprecated": false,
+  "description": "A package for sorting and aligning CSS and SASS. Forked from SeanJM.",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
@@ -37,5 +22,29 @@
     "jshint": "^2.9.1",
     "lasso-string": "^5.0.0",
     "match-file-utility": "^1.3.0"
-  }
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/420factorauthentication/css-clean/atom-css-clean#readme",
+  "keywords": [
+    "css",
+    "prettify",
+    "pretty print",
+    "SASS",
+    "sorting",
+    "sort",
+    "alignment"
+  ],
+  "license": "MIT",
+  "main": "main.js",
+  "name": "atom-css-clean-fork",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/420factorauthentication/css-clean.git"
+  },
+  "scripts": {
+    "jshint": "jshint"
+  },
+  "version": "0.0.0"
 }
